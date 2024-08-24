@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "generic-aliexpress-water-quality-sensor"
+version = "0.1.0"
+description = ""
+authors = ["Karl Quinsland <karl@karlquinsland.com>"]
+readme = "readme.md"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+structlog = "^24.4.0"
+minimalmodbus = "^2.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
